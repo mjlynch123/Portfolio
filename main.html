@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>Main Page</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body> 
+        </body>
+
+        <section class="myform-area">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="form-area login-form">
+                            <div class="form-content">
+                                <h2 style="text-align: center;">Welcome!</h2>
+                                <p>Sign up to get Emails from us<br /> and follow our socials<br/> for all space related information.</p>
+                                <ul>
+                                    <li><a href="#" class="facebook"><i class="fa fa-facebook-f"></i><span>facebook</span></a></li>
+                                    <li><a href="#" class="twitter"><i class="fa fa-twitter"></i><span>twitter</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="form-input">
+                                <h2>Login Form</h2>
+
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text"  id="username" name="name">
+                                        <label>User Name:</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" id="Password" name="password">
+                                        <label>Password:</label>
+                                    </div>
+                                    
+                                    <div class="myform-button">
+                                        <button class="myform-btn"><a href="secondPage.html">Login</a></button>
+                                        <button class="myform-btn" style="margin-top: 15px;"><a href="Weeklyemails.html">Sign up for to receive Emails</a></button>
+                                        <a href="secondPage.html"><p style="text-align:center; margin-top: 10px; font-size: 16px; color: black;"><u>Continue as guest →</u></p></a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            var msg = '<div class=\"header\"><a id=\"close\" href ="#">Close X</a></div>';
+            msg += '<div><h2>Sign Up for our Email List!</h2>';
+            msg += 'If you sign up for our Email list you could potentially win $30.<br>';
+            msg += 'We hope to see you there.<br><br><div>';
+            msg += 'Email:<br>';
+            msg += '<form class="form-subscribe" action="#" method="get"><input type="text" /><br><div class="form-button"><button class="myform-btn"><a href="#">SUBSCRIBE</a></button></div></form>';
+            msg += '';
+
+            var elNote = document.createElement('div');
+            elNote.setAttribute('id', 'note');
+            elNote.innerHTML = msg;
+            document.body.appendChild(elNote);
+
+            function dismissNote() {
+                document.body.removeChild(elNote);
+            }
+
+            var elClose = document.getElementById('close');
+            elClose.addEventListener('click', dismissNote, false);            
+        </script>
+    </body>
+    <footer>
+       
+    </footer>
+</html>
