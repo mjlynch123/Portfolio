@@ -1,0 +1,667 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.welcome-header {
+    margin: 10px;
+    border: 1px solid black;
+    height: auto;
+}
+
+.welcome-header h1, p {
+    font-family: Poppins;
+}
+
+.welcome-header h1 {
+    font-size: 55px;
+    border: 1px solid transparent;
+    margin-bottom: 0;
+}
+
+.welcome-header p {
+    margin-top: 0;
+    font-size: 35px;
+    border: 1px solid transparent;
+}
+
+.welcome-header img {
+    border: 2px solid black;
+    height: 250px;
+    margin-top: 70px;
+    border-radius: 120px;
+}
+
+.selected {
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid black;
+    background-color: #fff;
+    margin: 10px;
+    height: auto;
+    font-family: Poppins-light;
+}
+
+.selected li {
+    cursor: pointer;
+    display: inline;
+    padding: 10px;
+}
+
+.selected a {
+    text-decoration: none;
+    color: black;
+}
+
+.selected a:hover {
+    color: gray;
+}
+
+.selected a.active {
+    color: gray;
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+    padding-right: 40px;
+}
+
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+  
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/*-------- Resume Content ---------*/
+.elements {
+    border: 1px solid transparent;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 10px;
+}
+.intro {
+    border: 1px solid black;
+    float: left;
+    height: auto;
+    width: 400px;
+    margin: 10px;
+}
+
+.skills-list {
+    margin-right: 50px;
+}
+
+.skills-list ul {
+    text-align: center;
+}
+
+/*--------- Stars ----------*/
+
+.skills-list span {
+    margin-left: 20px;
+}
+
+.previous-jobs {
+    border: 1px solid transparent;
+    margin: 10px;
+    width: 60%;
+}
+
+.army {
+    text-align: left;
+    border: 1px solid transparent;
+    margin: 10px;
+}
+
+.army p {
+    margin-top: -10px;
+    font-family: Poppins-light;
+}
+
+.army h4, p{
+    margin-left: 10px;
+}
+
+.school {
+    border: 1px solid black;
+    margin: 10px;
+    width:300px;
+}
+
+.school h3 {
+    text-align: center;
+}
+
+.school p {
+    font-size: 15px;
+    margin: 5px;
+    font-family: Poppins-light;
+}
+
+.contact {
+    margin-top: 70px;
+    text-align: center;
+}
+
+
+
+
+/*--------------------------------------- Start of Projects ----------------------------------------*/
+
+.main-box {
+    margin: 10px;
+    border: 1px solid black;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.Box1 {
+    text-align: center;
+    width: 450px;
+    height: auto;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+.Descrip p{
+    font-family: Poppins-light;
+    font-size: 14px;
+}
+
+.Descrip a {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.image-loc {
+    margin: 10px;
+}
+
+.image-loc img {
+    width: 100%;
+}
+
+
+
+/*--------------------------------------- Start of Contact ----------------------------------------*/
+#Contact {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 55px;
+}
+
+#EmailButton {
+    background-color: white;
+}
+
+#EmailButton {
+    height: 50px;
+    width: 150px;
+}
+
+/*--------------------------------------- Start of About Me ----------------------------------------*/
+
+.About-me {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.para {
+    border: 1px solid transparent;
+    width: 70%;
+    margin: 10px;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+
+.para p {
+    font-family: Poppins-light;
+    text-align: center;
+}
+
+/*--------- Screen Resolution ---------*/
+
+@media only screen and (max-width: 700px) {
+    .elements {
+        display: block;
+        align-content: center;
+        position: relative;
+    }
+
+    .intro {
+        top: 50%;
+        width: 635px;
+        margin: 10px;
+    }
+
+    .previous-jobs {
+        width: 635px;
+    }
+
+    .school {
+        width: 635px;
+    }
+
+    /*----------- Starts of Projects -------------*/
+
+    .main-box {
+        display: block;
+    }
+
+    .Box1 {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    .elements {
+        display: block;
+        align-content: center;
+        position: relative;
+    }
+
+    .intro {
+        top: 50%;
+        width: 600px;
+        margin: 10px;
+    }
+
+    .previous-jobs {
+        width: 600px;
+    }
+
+    .school {
+        width: 600px;
+    }
+
+    /*----------- Starts of Projects -------------*/
+
+    .main-box {
+        display: block;
+    }
+
+    .Box1 {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .elements {
+        display: block;
+        align-content: center;
+        position: relative;
+    }
+
+    .intro {
+        top: 50%;
+        width: 565px;
+        margin: 10px;
+    }
+
+    .previous-jobs {
+        width: 565px;
+    }
+
+    .school {
+        width: 565px;
+    }
+
+    /*----------- Starts of Projects -------------*/
+
+    .main-box {
+        display: block;
+    }
+
+    .Box1 {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .elements {
+        display: block;
+        align-content: center;
+        position: relative;
+    }
+
+    .intro {
+        top: 50%;
+        width: 535px;
+        margin: 10px;
+    }
+
+    .previous-jobs {
+        width: 535px;
+    }
+
+    .school {
+        width: 535px;
+    }
+
+    /*----------- Starts of Projects -------------*/
+
+    .main-box {
+        display: block;
+    }
+
+    .Box1 {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .elements {
+        display: block;
+        align-content: center;
+        position: relative;
+    }
+
+    .intro {
+        top: 50%;
+        width: 515px;
+        margin: 10px;
+    }
+
+    .previous-jobs {
+        width: 515px;
+    }
+
+    .school {
+        width: 515px;
+    }
+
+    /*----------- Starts of Projects -------------*/
+
+    .main-box {
+        display: block;
+    }
+
+    .Box1 {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 541px){
+    .elements {
+        display: flexbox;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .intro {
+        width: 475px;
+    }
+
+    .previous-jobs {
+        width: 475px;
+    }
+
+    .school {
+        width: 475px;
+    }
+
+    /*----------- Starts of Projects -------------*/
+
+    .main-box {
+        display: block;
+    }
+
+    .Box1 {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 476px){
+    .elements {
+        display: flexbox;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .intro {
+        width: 410px;
+    }
+
+    .previous-jobs {
+        width: 410px;
+    }
+
+    .school {
+        width: 410px;
+    }
+
+    /*----------- Starts of Projects -------------*/
+
+    .main-box {
+        display: block;
+    }
+
+    .Box1 {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 415px){
+    .elements {
+        display: flexbox;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .intro {
+        width: 350px;
+    }
+
+    .previous-jobs {
+        width: 350px;
+    }
+
+    .school {
+        width: 350px;
+    }
+
+    /*----------- Starts of Projects -------------*/
+
+    .main-box {
+        display: block;
+    }
+
+    .Box1 {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .elements {
+        display: flexbox;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .intro {
+        width: 325px;
+    }
+
+    .previous-jobs {
+        width: 325px;
+    }
+
+    .school {
+        width: 325px;
+    }
+
+
+    /*----------- Starts of Projects -------------*/
+
+    .main-box {
+        display: block;
+    }
+
+    .Box1 {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .elements {
+        display: flexbox;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .intro {
+        width: 310px;
+    }
+
+    .previous-jobs {
+        width: 310px;
+    }
+
+    .school {
+        width: 310px;
+    }
+
+    /*----------- Starts of Projects -------------*/
+
+    .main-box {
+        display: block;
+    }
+
+    .Box1 {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 361px){
+    .elements {
+        display: flexbox;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .intro {
+        width: 295px;
+    }
+
+    .previous-jobs {
+        width: 295px;
+    }
+
+    .school {
+        width: 295px;
+    }
+
+    .skills-list {
+        margin-right: 30px;
+    }
+
+    .skills-list span {
+        margin-right: 20px;
+    }
+
+    /*----------- Starts of Projects -------------*/
+
+    .main-box {
+        display: block;
+    }
+
+    .Box1 {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 281px){
+    .elements {
+        display: flexbox;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .intro {
+        width: 215px;
+    }
+
+    .previous-jobs {
+        width: 215px;
+    }
+
+    .school {
+        width: 215px;
+    }
+
+    .selected li {
+        cursor: pointer;
+        display: block;
+        padding: 10px;
+    }
+
+    .skills-list {
+        margin-right: 40px;
+    }
+
+    .skills-list span {
+        margin-right: 30px;
+    }
+
+    #email {
+        overflow-y:scroll;
+    }
+
+    /*----------- Starts of Projects -------------*/
+
+    .main-box {
+        display: block;
+    }
+
+    .Box1 {
+        width: auto;
+        height: auto;
+    }
+}
+/*------------- Fonts ------------*/
+@font-face {
+    font-family: Oswald;
+    src: url(Oswald/static/Oswald-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Silkscreen;
+    src: url(Silkscreen\ Font/Silkscreen-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-light;
+    src: url(Poppins/Poppins-Light.ttf);
+}
