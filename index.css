@@ -193,6 +193,7 @@ body {
 
 .image-loc img {
     max-width: 100%;
+    min-width: 20%;
     height: 10%;
     height: 200px;
 }
