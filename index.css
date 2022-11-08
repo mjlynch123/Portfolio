@@ -198,6 +198,7 @@ body {
     height: 200px;
     margin: auto;
     overflow: hidden;
+    display: block;
 }
 
 
