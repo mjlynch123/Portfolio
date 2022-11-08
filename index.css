@@ -188,6 +188,7 @@ body {
 
 .image-loc {
     margin: 10px;
+    border: 1px solid black;
 }
 
 .image-loc img {
