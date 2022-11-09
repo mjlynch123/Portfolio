@@ -235,13 +235,19 @@ body {
 }
 
 #EmailButton {
-    background-color: white;
-}
-
-#EmailButton {
+    background-image: linear-gradient(130deg, #006080, #000);
+    border: 1px solid transparent;
+    text-align: center;
+    border-radius: 15px;
     height: 50px;
     width: 150px;
+    cursor: pointer;
+    color: white;
 }
+
+#EmailButton:hover {
+    box-shadow: -1px 1px 10px rgba(153, 153, 153, 0.9);
+} 
 
 /*--------------------------------------- Start of About Me ----------------------------------------*/
 
