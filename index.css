@@ -10,20 +10,20 @@ body {
     height: auto;
 }
 
-.welcome-header h1, p {
-    font-family: Poppins;
-}
-
 .welcome-header h1 {
     font-size: 55px;
     border: 1px solid transparent;
     margin-bottom: 0;
+    font-family: "Roboto";
+    opacity: .7;
 }
 
 .welcome-header p {
     margin-top: 0;
     font-size: 35px;
     border: 1px solid transparent;
+    font-family: "Roboto";
+    opacity: .7;
 }
 
 .welcome-header img {
@@ -672,4 +672,9 @@ body {
 @font-face {
     font-family: Poppins-light;
     src: url(Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf)
 }
