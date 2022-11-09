@@ -4,6 +4,13 @@ body {
     width: 100%;
 }
 
+#welcomeHeader, #welcomePara {
+    background: linear-gradient(60deg, #0073e6, #00ffff, #000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 .welcome-header {
     margin: 10px;
     border: 1px solid black;
