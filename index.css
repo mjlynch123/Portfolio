@@ -39,6 +39,7 @@ body {
     height: 250px;
     margin-top: 70px;
     border-radius: 130px;
+    object-fit: cover; /*Fits image to background with distorting images*/
 }
 
 .selected {
@@ -224,6 +225,7 @@ body {
     overflow: hidden;
     display: block;
     border-radius: 15px;
+    object-fit: cover; /*Fits image to background with distorting images*/
 }
 
 #box:hover {
