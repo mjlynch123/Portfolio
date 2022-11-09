@@ -13,7 +13,7 @@ body {
 
 .welcome-header {
     margin: 10px;
-    border: 1px solid black;
+    border: 1px solid transparent;
     height: auto;
 }
 
