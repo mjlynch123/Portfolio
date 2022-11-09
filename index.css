@@ -69,7 +69,7 @@ body {
 
 .selected a.active {
     color: gray;
-    text-decoration: underline;
+    text-decoration: none;
     border-radius: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
