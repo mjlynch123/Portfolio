@@ -78,9 +78,7 @@ body {
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    -webkit-box-shadow: -1px 1px 10px rgba(153, 153, 153, 0.9);
-    -moz-box-shadow: -1px 1px 10px rgba(153, 153, 153, 0.9);
-    box-shadow: -1px 1px 10px rgba(153, 153, 153, 0.9);
+    box-shadow: 7px 10px 10px rgba(153, 153, 153, 0.9);
 }
 
 .center {
