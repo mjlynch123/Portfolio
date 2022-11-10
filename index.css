@@ -50,6 +50,7 @@ html {
     border: 1px solid black;
     border-radius: 15px;
     background-color: #fff;
+    opacity: .6;
     margin: 10px;
     height: auto;
     font-family: Poppins-light;
@@ -128,12 +129,12 @@ html {
 
 .previous-jobs {
     border: 1px solid transparent;
+    text-align: center;
     margin: 10px;
     width: 60%;
 }
 
 .army {
-    text-align: left;
     border: 1px solid transparent;
     margin: 10px;
 }
