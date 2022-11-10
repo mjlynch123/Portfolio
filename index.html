@@ -6,13 +6,15 @@
     <head>
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="welcome-header" style="text-align: center;">
             <img src="Images/Profilepic.png"/>
             <h1 id="welcomeHeader">MARTIN LYNCH</h1>
             <p id="welcomePara">Web Designer</p>
-            <p style="color: red; font-size: 14px;">*****This website is still under construction. Not everything will work and not all projects have been updated. Reach out under the contact tab for any questions. Thank you!***</p>
         </div>
 
         <div class="selected">
@@ -72,7 +74,7 @@
                             <a href="https://codepen.io/mjlynch123/pen/JjZbNQM" target="_blank"><img src="Images/passwordval.png" alt=""></a>
                         </div>
                         <div class="Descrip">
-                            <h4>Password Validation</h4>                         
+                            <h4>Password Validation</h4>
                             <p style="font-weight: bold; word-spacing: 10px;">HTML CSS JavaScript</p>
                             <p>Checks to make sure password has at least six characters, a number, an uppercase letter, and a special character.</p>
                         </div>
@@ -131,7 +133,7 @@
 
                 document.getElementById("defaultOpen").click();
 
-                function openTab(evt, cityName) {
+                function openTab(evt, tabName) {
                     // Declare all variables
                     var i, tabcontent, tablinks;
 
@@ -148,7 +150,7 @@
                     }
 
                     // Show the current tab, and add an "active" class to the button that opened the tab
-                    document.getElementById(cityName).style.display = "block";
+                    document.getElementById(tabName).style.display = "block";
                     evt.currentTarget.className += " active";
 }
             </script>
