@@ -127,8 +127,8 @@ body {
 
 /*--------- Stars ----------*/
 
-.skills-list span {
-    margin-left: 20px;
+.skills-list li {
+    text-align: center;
 }
 
 .previous-jobs {
