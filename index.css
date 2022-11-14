@@ -142,7 +142,7 @@ html {
 
 .army p {
     margin-top: -10px;
-    font-family: Poppins-light;
+    font-family: Arial;
 }
 
 .army h4, p{
@@ -164,7 +164,7 @@ html {
 .school p {
     font-size: 15px;
     margin: 5px;
-    font-family: Poppins-light;
+    font-family: Arial;
 }
 
 #email {
