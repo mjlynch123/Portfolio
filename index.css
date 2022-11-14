@@ -85,6 +85,7 @@ html {
 }
 
 .center {
+    box-shadow: 0 0 15px #e6e6e6, 0 0 15px #e6e6e6, 0 0 15px #e6e6e6;
     text-align: center;
     border: 1px solid black;
     border-radius: 15px;
@@ -111,6 +112,7 @@ html {
     margin: 10px;
 }
 .intro {
+    box-shadow: 0 0 15px #e6e6e6, 0 0 15px #e6e6e6, 0 0 15px #e6e6e6;
     border: 1px solid black;
     border-radius: 15px;
     float: left;
@@ -148,6 +150,7 @@ html {
 }
 
 .school {
+    box-shadow: 0 0 15px #e6e6e6, 0 0 15px #e6e6e6, 0 0 15px #e6e6e6;
     border: 1px solid black;
     border-radius: 15px;
     margin: 10px;
