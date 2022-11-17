@@ -265,7 +265,7 @@ html {
 }
 
 .para {
-    border: 1px solid transparent;
+    border: 1px solid black;
     position: relative;
     left: 35%;
     top: 50%;
@@ -280,7 +280,7 @@ html {
 }
 
 .lighthouse-stats {
-    border: 1px solid transparent;
+    border: 1px solid pink;
     margin: 10px;
 }
 
