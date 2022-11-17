@@ -279,8 +279,12 @@ html {
 }
 
 .lighthouse-stats {
-    border: 1px solid transparent;
+    border: 1px solid black;
+    position: relative;
+    top:60%;
     margin: 10px;
+    width: 94%;
+    height: 115px;
 }
 
 .lighthouse-stats img {
@@ -288,7 +292,7 @@ html {
     width: 100%;
     max-width: 1000%;
     min-width: 20%;
-    height: 10%;
+    height: 115px;
     object-fit: cover;
 }
 
