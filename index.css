@@ -258,14 +258,17 @@ html {
 
 .About-me {
     border: 1px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: auto;
+    border-radius: 15px;
+    text-align: center;
     margin: 10px;
 }
 
 .para {
     border: 1px solid transparent;
+    position: relative;
+    left: 15%;
+    top: 50%;
     width: 70%;
     margin: 10px;
     word-spacing: 2px;
@@ -273,8 +276,21 @@ html {
 }
 
 .para p {
-    font-family: Arial;
     text-align: center;
+}
+
+.lighthouse-stats {
+    border: 1px solid transparent;
+    margin: 10px;
+}
+
+.lighthouse-stats img {
+    margin: 10px;
+}
+
+.lighthouse-title {
+    font-size: 16px;
+    font-weight: 700;
 }
 
 /*--------- Screen Resolution ---------*/
