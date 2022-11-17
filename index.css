@@ -285,7 +285,12 @@ html {
 }
 
 .lighthouse-stats img {
-    margin: 10px;
+    margin-right: 10px;
+    width: 100%;
+    max-width: 1000%;
+    min-width: 20%;
+    height: 10%;
+    object-fit: cover;
 }
 
 .lighthouse-title {
