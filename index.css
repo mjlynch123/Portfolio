@@ -278,29 +278,6 @@ html {
     text-align: center;
 }
 
-.lighthouse-stats {
-    border: 1px solid pink;
-    position: relative;
-    top:60%;
-    margin: 10px;
-    width: 94%;
-    height: 115px;
-}
-
-.lighthouse-stats img {
-    margin-right: 10px;
-    width: 100%;
-    max-width: 1000%;
-    min-width: 20%;
-    height: 115px;
-    object-fit: cover;
-}
-
-.lighthouse-title {
-    font-size: 16px;
-    font-weight: 700;
-}
-
 /*--------- Screen Resolution ---------*/
 
 @media only screen and (max-width: 700px) {
