@@ -11,20 +11,30 @@ html {
     margin: 10px;
     border: 1px solid transparent;
     height: auto;
+    font-family: "Roboto";
 }
 
 #welcomeHeader, #welcomePara {
-    background: linear-gradient(60deg, #0073e6, #00ffff, #000);
+    --bg-size: 400%;
+    --color-one: #06beb6;
+    --color-two: #753a88;
+    background: linear-gradient(90deg, var(--color-one), var(--color-two), var(--color-one))0 0 /var(--bg-size) 100%;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    animation: pushRight 10s linear;
 }
+
+@keyframes pushRight {
+    to {
+      background-position: var(--bg-size) 0;
+    }
+  }
 
 .welcome-header h1 {
     font-size: 55px;
     border: 1px solid transparent;
     margin-bottom: 0;
-    font-family: "Roboto";
     opacity: .7;
 }
 
@@ -51,8 +61,8 @@ html {
     border-radius: 15px;
     background-color: #fff;
     margin: 10px;
-    height: auto;
-    font-family: "Roboto";
+    height: auto; 
+    font-family: "Arial";
 }
 
 .selected li {
@@ -85,16 +95,16 @@ html {
 }
 
 .center {
-    box-shadow: 0 0 15px #e6e6e6, 0 0 15px #e6e6e6, 0 0 15px #e6e6e6;
     text-align: center;
     border: 1px solid black;
     border-radius: 15px;
     margin: 20px;
     padding-right: 40px;
+    box-shadow: 0 0 15px #e6e6e6, 0 0 15px #e6e6e6, 0 0 15px #e6e6e6;
 }
 
 .tabcontent {
-    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+    animation: fadeEffect 3s; /* Fading effect takes 1 second */
 }
   
 /* Go from zero to full opacity */
@@ -112,19 +122,18 @@ html {
     margin: 10px;
 }
 .intro {
-    box-shadow: 0 0 15px #e6e6e6, 0 0 15px #e6e6e6, 0 0 15px #e6e6e6;
     border: 1px solid black;
     border-radius: 15px;
     float: left;
     height: auto;
     width: 400px;
     margin: 10px;
+    box-shadow: 0 0 15px #e6e6e6, 0 0 15px #e6e6e6, 0 0 15px #e6e6e6;
 }
 
 .skills-list {
-    border: 1px solid transparent;
-    margin: 10px;
     text-align: center;
+    
 }
 
 
@@ -132,23 +141,16 @@ html {
 
 .previous-jobs {
     border: 1px solid transparent;
-    text-align: center;
+    border-radius: 15px;
     margin: 10px;
     width: 60%;
+    text-align: center;
 }
 
 .army {
     border: 1px solid transparent;
     margin: 10px;
-}
-
-.army p {
-    margin-top: -10px;
-    font-family: Arial;
-}
-
-.army h4, p{
-    margin-left: 10px;
+    padding: 10px;
 }
 
 .school {
@@ -166,7 +168,6 @@ html {
 .school p {
     font-size: 15px;
     margin: 5px;
-    font-family: Arial;
 }
 
 #email {
@@ -177,7 +178,6 @@ html {
     margin-top: 70px;
     text-align: center;
 }
-
 
 .buttons {
     border: 1px solid transparent;
@@ -218,7 +218,6 @@ html {
 }
 
 .Descrip p{
-    font-family: Arial;
     font-size: 14px;
 }
 
@@ -228,11 +227,16 @@ html {
     padding: 10px;
 }
 
+.Descrip h4 {
+    font-family: Lato-bold;
+}
+
 .image-loc {
     margin: 10px;
 }
 
 .image-loc img {
+    box-shadow: 0 0 10px #e6e6e6, 0 0 10px #e6e6e6, 0 0 10px #e6e6e6;
     width: 100%;
     max-width: 1000%;
     min-width: 20%;
@@ -648,6 +652,7 @@ html {
     .skills-list {
         border: 1px solid transparent;
         position: relative;
+       
     }
 
     .skills-list span {
@@ -697,7 +702,6 @@ html {
     }
 
     .skills-list span {
-        text-align: center;
         margin-right: 30px;
     }
 
@@ -738,12 +742,17 @@ html {
 
 @font-face {
     font-family: Poppins-light;
-    src: url(Poppins/Poppins-Light.ttf);
+    src: url(Fonts/Poppins/Poppins-ExtraLight.ttf);
 }
 
 @font-face {
     font-family: Roboto;
     src: url(Fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf)
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(Fonts/Lato/Lato-Light.ttf)
 }
 
 @font-face {
