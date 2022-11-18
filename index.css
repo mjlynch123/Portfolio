@@ -644,7 +644,8 @@ html {
     }
 
     .skills-list {
-        margin-right: 30px;
+        border: 1px solid transparent;
+        position: relative;
     }
 
     .skills-list span {
@@ -689,7 +690,8 @@ html {
     }
 
     .skills-list {
-        margin-right: 40px;
+        border: 1px solid transparent;
+        position: relative;
     }
 
     .skills-list span {
