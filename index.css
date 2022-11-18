@@ -693,12 +693,11 @@ html {
 
     .skills-list {
         border: 1px solid black;
-        margin: 10px;
         position: relative;
     }
 
     .skills-list span {
-        margin-right: 20px;
+        margin-right: 30px;
     }
 
     #email {
