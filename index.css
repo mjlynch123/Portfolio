@@ -22,7 +22,7 @@ html {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    animation: pushRight 5s linear;
+    animation: pushRight 2s linear;
 }
 
 @keyframes pushRight {
